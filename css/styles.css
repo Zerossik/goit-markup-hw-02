@@ -54,16 +54,17 @@ color: var(--activ-color);
     list-style: none;
 }
 
-.header-contact .link{
+.contact .link{
     font-size: 14px;
     line-height: 1.14;
     color:#757575;
     text-decoration: none;
 }
-.header-contact .link:hover, .header-contact .link:focus{
+
+.contact .link:hover, .contact .link:focus{
     color: var(--activ-color);
 }
-.header-contact li{
+.contact li{
     list-style: none;
 }
 
