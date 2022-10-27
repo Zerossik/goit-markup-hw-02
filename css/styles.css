@@ -1,25 +1,57 @@
+:root {
+    --activ-color: #2196F3;
+
+}
+
 body {
 font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-
+/* header */
 .header {
-    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF; 
+    color: #212121;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+.logo-color {
+color: var(--activ-color);
+}
+
+.link {
+    text-decoration: none;
     
 }
 
-.header a {
-    text-decoration: none;
-}
+
+
 .section-title {
-   
+    font-size: 36px;
+    line-height:1.0769;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+        color: #212121;
 }
-
-
 
 /* цвет основного текста #212121*/
 /* вторичній цвет текста #757575 */
 /* цвет телефона в хедер #757575 */
-/* цвет при наведении #2196F3 */
+/* цвет при наведении #2196F3 --activ-color*/
 /* Заголовок hero #FFFFFF */
 /* контакті в футере rgba(255, 255, 255, 0.6) */
 /* вторичный цвет фона #F5F4FA */
