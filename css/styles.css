@@ -1,0 +1,25 @@
+body {
+font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: #FFFFFF;
+    
+}
+
+.header a {
+    text-decoration: none;
+}
+.section-title {
+   
+}
+
+
+
+/* цвет основного текста #212121*/
+/* вторичній цвет текста #757575 */
+/* цвет телефона в хедер #757575 */
+/* цвет при наведении #2196F3 */
+/* Заголовок hero #FFFFFF */
+/* контакті в футере rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA */
