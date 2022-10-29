@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', 'Open Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   letter-spacing: 0.03em;
+  background-color: #F5F5F5;
 }
 
 .link {
@@ -113,7 +114,22 @@ body {
 }
 
 /* --------------Чим ми займаємося------------------ */
+.work {
+}
 
+.work-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.work-list {
+}
+
+.work-item {
+}
 
 /* цвет основного текста #212121*/
 /* вторичній цвет текста #757575 */
