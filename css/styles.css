@@ -246,15 +246,15 @@ body {
 
 .portfolio-item-title {
   font-size: 18px;
-    line-height: calc(36 / 18);
-    letter-spacing: 0.06em;
-    color: var(--main-title-color);
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
 }
 
 .portfolio-item-text {
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    color: var(--discription-color);
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--discription-color);
 }
 
 /* цвет основного текста #212121*/
