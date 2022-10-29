@@ -1,112 +1,119 @@
 :root {
-    --activ-color: #2196F3;
-    --main-title-color: #212121;
-
+  --activ-color: #2196f3;
+  --main-title-color: #212121;
+  --discription-color: #757575;
 }
 
 body {
-font-family: 'Roboto', 'Open Sans', -apple-system,
-    BlinkMacSystemFont,
-    avenir next,
-    avenir,
-    segoe ui,
-    helvetica neue,
-    helvetica,
-    Cantarell,
-    Ubuntu,
-    roboto,
-    noto,
-    arial,
-    sans-serif;
-    letter-spacing: 0.03em;
+  font-family: 'Roboto', 'Open Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  letter-spacing: 0.03em;
 }
 
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 /*------------------------header------------------------*/
 .header {
-    background-color: #FFFFFF; 
-    letter-spacing: 0.02em;
-    
+  background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
-    text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
 }
 .logo-color {
-color: var(--activ-color);
+  color: var(--activ-color);
 }
 
 .header-item .link {
-    text-decoration: none;
-    color: var(--main-title-color);
-    font-size: 14px;
-    line-height: 1.14;
+  text-decoration: none;
+  color: var(--main-title-color);
+  font-size: 14px;
+  line-height: 1.14;
 }
-.header-item .link:hover, 
+.header-item .link:hover,
 .header-item .link:focus {
-    color: var(--activ-color)
+  color: var(--activ-color);
 }
 
-.contact-item .link{
-    font-size: 14px;
-    line-height: 1.14;
-    color:#757575;
-    text-decoration: none;
+.contact-item .link {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+  text-decoration: none;
 }
 
 .contact-item .link:hover,
-.contact-item .link:focus{
-    color: var(--activ-color);
+.contact-item .link:focus {
+  color: var(--activ-color);
 }
 /* -----------------------HERO----------------------- */
 .hero {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .hero-title {
-font-weight: 900;
-font-size: 44px;
-line-height: calc(60 / 44);
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .hero-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    text-align: center;
-    color: #ffffff;
-    background-color: var(--activ-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--activ-color);
+}
+/* ------------------------ОСОБЛІВОСТІ--------------------- */
+.peculiarities {
 }
 
+.peculiarities-title {
+}
 
-/* .section-title {
-    font-size: 36px;
-    line-height:1.0769;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-} */
+.peculiarities-list {
+}
+
+.peculiarities-item {
+}
+
+.peculiarities-item-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.peculiarities-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--discription-color);
+}
+
+/* --------------Чим ми займаємося------------------ */
+
 
 /* цвет основного текста #212121*/
 /* вторичній цвет текста #757575 */
